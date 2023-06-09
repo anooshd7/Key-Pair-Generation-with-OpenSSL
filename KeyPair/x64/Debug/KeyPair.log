@@ -1,0 +1,10 @@
+﻿  Pray.cpp
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(95,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(96,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(97,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(98,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(125,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(130,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(181,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Anoosh\Downloads\KeyPair\KeyPair\Pray.cpp(186,128): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  KeyPair.vcxproj -> C:\Users\Anoosh\Downloads\KeyPair\x64\Debug\KeyPair.exe
