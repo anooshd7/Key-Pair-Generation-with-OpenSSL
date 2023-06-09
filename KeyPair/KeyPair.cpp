@@ -121,19 +121,6 @@ unsigned char* Base64Decode(const std::string& encoded_data , int length) {
 
 }
 
-/* 
-* int base64_decode(const char *input, unsigned char *output) {
-    BIO *b64 = BIO_new(BIO_f_base64());
-    BIO_set_flags(b64, BIO_FLAGS_BASE64_NO_NL);
-    //assumes the string is null terminated
-    BIO *bio = BIO_new_mem_buf(input, -1);
-    bio = BIO_push(b64, bio);
-    int output_length = BIO_read(bio, output, strlen(input));
-    BIO_free_all(bio);
-    return output_length;
-}
-*/
-
 std:: string generateSharedSecret(const std::string& publicKey, const std::string& privateKey) {
 
     // Load public key from PEM format
@@ -265,7 +252,7 @@ std::string decryptString(const std::string& encryptedText, const unsigned char*
  
 int main() {
     std::string bobPublicKey, bobPrivateKey, alicePublicKey, alicePrivateKey;
-    std::string plainText = "Hey Anoosh";
+    std::string plainText = "Hello World";
 
     // Generates key pair for Bob
     if (generateKeyPair(bobPublicKey, bobPrivateKey)) {
@@ -311,11 +298,6 @@ int main() {
         std::cout << "Encrypted text: " << string.first << std::endl;
         std::cout << "Decrypted text: " << decryptedText << std::endl;
 
-
-        /*
-        std::cout << bob << std::endl;
-        std::cout << decoded_secret << std::endl;
-        */
 
         return 0;
     }
